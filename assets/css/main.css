@@ -2293,7 +2293,7 @@ take precedence the ones in this file. */
 		}
 
 		.image.fit {
-			display: block;
+			display: inline-block;
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
