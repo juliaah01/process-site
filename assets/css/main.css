@@ -23,14 +23,20 @@ take precedence the ones in this file. */
 	}
 
 	body {
+		font-family: Georgia, serif;
+		font-weight: 300;
 		line-height: 1;
 	}
 
 	ol, ul {
+		font-family: Georgia, serif;
+		font-weight: 300;
 		list-style: none;
 	}
 
 	blockquote, q {
+		font-family: Georgia, serif;
+		font-weight: 300;
 		quotes: none;
 	}
 
@@ -45,6 +51,8 @@ take precedence the ones in this file. */
 	}
 
 	body {
+		font-family: Georgia, serif;
+		font-weight: 300;
 		-webkit-text-size-adjust: none;
 	}
 
@@ -1585,13 +1593,13 @@ take precedence the ones in this file. */
 
 	body {
 		background-color: #fff;
-		color: #444;
+		color: #193a66;
 	}
 
 	body, input, select, textarea {
-		font-family: "Lato", Arial, Helvetica, sans-serif;
-		font-size: 16pt;
-		font-weight: 300;
+		font-family: arboria,sans-serif;
+		font-weight: 700;
+		font-style: normal;
 		line-height: 1.75;
 	}
 
@@ -1628,6 +1636,8 @@ take precedence the ones in this file. */
 	}
 
 	p {
+		font-family: Georgia, serif;
+		font-weight: 300;
 		margin: 0 0 2em 0;
 	}
 
@@ -1658,6 +1668,8 @@ take precedence the ones in this file. */
 	}
 
 	h5 {
+		font-family: Georgia, serif;
+		font-weight: 300;
 		font-size: 0.9em;
 	}
 
@@ -1678,6 +1690,7 @@ take precedence the ones in this file. */
 	}
 
 	blockquote {
+		font-family: Georgia, serif;
 		border-left: solid 4px;
 		font-style: italic;
 		margin: 0 0 2em 0;
@@ -1687,15 +1700,18 @@ take precedence the ones in this file. */
 	code {
 		border-radius: 0;
 		border: solid 1px;
-		font-family: "Courier New", monospace;
-		font-size: 0.9em;
+		font-family: arboria,sans-serif;
+		font-weight: 400;
+		font-style: normal;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
 	}
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: arboria,sans-serif;
+		font-weight: 400;
+		font-style: normal;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -1738,11 +1754,11 @@ take precedence the ones in this file. */
 	}
 
 	strong, b {
-		color: #555;
+		color: #193a66;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #555;
+		color: #193a66;
 	}
 
 	blockquote {
@@ -2513,12 +2529,14 @@ take precedence the ones in this file. */
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
+		font-family: Georgia, serif;
+		font-weight: 300;
 		font-size: 0.9em;
 		margin-top: -0.6em;
 	}
 
 	header p {
-		color: #bbb;
+		color: #5ac2e2;
 	}
 
 /* Table */
@@ -2621,7 +2639,7 @@ take precedence the ones in this file. */
 
 		.wrapper.style1 {
 			background-color: #fff;
-			color: #444;
+			color: #193a66;
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
@@ -2753,7 +2771,7 @@ take precedence the ones in this file. */
 
 			.wrapper.style1 input[type="checkbox"] + label,
 			.wrapper.style1 input[type="radio"] + label {
-				color: #444;
+				color: #193a66;
 			}
 
 				.wrapper.style1 input[type="checkbox"] + label:before,
@@ -2829,7 +2847,7 @@ take precedence the ones in this file. */
 
 		.wrapper.style2 {
 			background-color: #fff;
-			color: #444;
+			color: #193a66;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -2961,7 +2979,7 @@ take precedence the ones in this file. */
 
 			.wrapper.style2 input[type="checkbox"] + label,
 			.wrapper.style2 input[type="radio"] + label {
-				color: #444;
+				color: #193a66;
 			}
 
 				.wrapper.style2 input[type="checkbox"] + label:before,
@@ -3058,7 +3076,7 @@ take precedence the ones in this file. */
 	}
 
 	#header {
-		background: #1c1c1c;
+		background: #ef8022;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		height: 4.25em;
@@ -3114,9 +3132,9 @@ take precedence the ones in this file. */
 					content: "";
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
+					font-family: arboria,sans-serif;
+					font-weight: 400;
 					font-style: normal;
-					font-weight: normal;
 					text-transform: none !important;
 				}
 
@@ -3261,9 +3279,9 @@ take precedence the ones in this file. */
 				content: "";
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: arboria,sans-serif;
+				font-weight: 400;
 				font-style: normal;
-				font-weight: normal;
 				text-transform: none !important;
 			}
 
@@ -3582,8 +3600,8 @@ take precedence the ones in this file. */
 			#main .inner header p {
 				font-size: 1em;
 				font-style: italic;
-				border-top: 1px solid rgba(144, 144, 144, 0.25);
-				border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+				border-top: 1px solid #5ac2e2;
+				border-bottom: 1px solid #5ac2e2;
 				padding: .5em 0;
 			}
 
@@ -3760,7 +3778,7 @@ take precedence the ones in this file. */
 
 		.post.style1 {
 			background-color: #fff;
-			color: #444;
+			color: #193a66;
 		}
 
 			.post.style1 input, .post.style1 select, .post.style1 textarea {
@@ -3974,7 +3992,7 @@ take precedence the ones in this file. */
 
 		.post.style2 {
 			background-color: #fff;
-			color: #444;
+			color: #193a66;
 		}
 
 			.post.style2 input, .post.style2 select, .post.style2 textarea {
@@ -4204,7 +4222,7 @@ take precedence the ones in this file. */
 
 		.post.style3 {
 			background-color: #fff;
-			color: #444;
+			color: #193a66;
 		}
 
 			.post.style3 input, .post.style3 select, .post.style3 textarea {
